@@ -1,7 +1,3 @@
----
-title: 3 Resource Management
----
-
 #### Item 13: Use objects to manage resources.
 
 1. So that you don’t forget to release dynamically allocated memory and release resources like locks, file descriptors, sockets, db connection etc.
