@@ -21,6 +21,3 @@
 9. Containers of shared\_ptr are possible because of it copying nature. Thus better choice over auto\_ptr
 
 10. `std::auto_ptr` and `std::shared_ptr` use `delete` in their destructor not `delete[]`. Thus they can't  be used to manage dynamically allocated arrays. See `boost::scoped_array` and `boost::shared_array`.
-
-
-
