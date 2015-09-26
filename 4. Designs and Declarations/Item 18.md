@@ -1,4 +1,4 @@
-#### Make interface easy to use correctly and hard to use incorrectly.
+#### Item 18: Make interface easy to use correctly and hard to use incorrectly.
 
 1. Introduce new types when using built-in types leaves room for confusion and lead to incorrect usage. For example using int for defining date, month, year to represent date may lead usage errors. It can be mitigated by creating new date, month, year type classes.
 
