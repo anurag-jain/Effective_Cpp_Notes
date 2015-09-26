@@ -12,5 +12,5 @@
 
 		1. Never return a pointer/reference to a local stack object.
 		2. Never return a reference to a heap allocated object.
-		3. Never return a pointer/reference to a static object if there is a chance
-		there more than one such object might be required.
+		3. Never return a pointer/reference to a static object if there is a chance there
+		more than one such object might be required.
