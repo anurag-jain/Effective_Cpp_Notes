@@ -9,6 +9,7 @@
 4. Returning reference to local static object will obviously make your function thread unsafe; additionally it will cause every returned reference to point to the same object.
 
 5. Modern compiler carry out optimisations to eliminate the constructor/copy function calls while returning an object by value from a function. Thus it's advised to rely on those facilities. Thus,
+
 		1. Never return a pointer/reference to a local stack object.
 		2. Never return a reference to a heap allocated object.
 		3. Never return a pointer/reference to a static object if there is a chance there more than one such object might be required.
